@@ -15,29 +15,29 @@ h2 {
 
 .status-banner {
   background-color: lightgreen;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid green;
+  padding: 10;
+  margin-bottom: 20;
+  border: 1 solid green;
   animation-name: pulse;
-  animation-duration: 2s;
+  animation-duration: 2;
   animation-iteration-count: infinite;
 }
 
 .service-box {
   background-color: lightgray;
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px solid gray;
-  transition: all 0.4s ease;
+  padding: 15;
+  margin-bottom: 15;
+  border: 1 solid gray;
+  transition: all 0.4 ease;
 }
 
 .service-box:hover {
   background-color: lightblue;
-  transform: scale(1.05) translateY(-5px) rotate(1deg);
+  transform: (1.05) (-5) (1);
 }
 
 .repo-link {
-  margin-top: 20px;
+  margin-top: 20;
 }
 
 @keyframes pulse {
